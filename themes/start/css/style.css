@@ -4,7 +4,7 @@
           box-sizing: border-box;
 }
 html {
-	background-color:#4DB5E6;
+	background-color:rgb(57, 60, 57);
 	font-family: 'open_sans';
 }
 body {
@@ -14,12 +14,14 @@ body {
 	position: fixed;
 	top: 40px;
 	left: 120px;
+             color:#f2f2f2;
 }
 #footer {
 	position: fixed;
 }
 #header {
 	font-family: 'open_sans-light';
+            
 }
 #apps {
 	font-family: 'open_sans-light';
