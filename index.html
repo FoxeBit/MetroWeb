@@ -34,9 +34,9 @@
 
 	<script src="src/scripts/metro_controller.js"></script>
 
-	<script src="themes/start/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="src/scripts/redirect.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="themes/start/css/jquery-ui-1.10.4.custom.min.css">
+	
 
 	<link rel="stylesheet" type="text/css" href="themes/start/css/style.css">
 
@@ -54,13 +54,13 @@
 
 	<div id="apps">
 
-		<div id="group1" data-apps="10">
+		<div id="group1" data-apps="20">
 
 			<div id="name">Apps</div>
 
 			<div id="applist" class="js-isotope" data-isotope-options='{ "itemSelector": ".app", "masonry": { "columnWidth": 120, "gutter": 4 } }'>
 
-				<img class="app" id="aboutme_1_opener" src="AboutMe.png" alt="About Me">
+				<img class="app" id="aboutme_1_opener" src="AboutMe.png" alt="About Me" onclick="imageClick('app')">
 
 				<img class="app wide" id="calendar_1_opener" src="Calendar.png" alt="Calendar">
 
@@ -69,6 +69,25 @@
 				<img class="app tall wide" id="time_1_opener" src="Time.png" alt="Time">
 
 				<img class="app" id="aboutme_2_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app tall wide" id="time_1_opener" src="Time.png" alt="Time">
+
+				<img class="app" id="aboutme_2_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app tall" id="notes_3_opener" src="Notes.png" alt="Notes">
+
+				<img class="app" id="aboutme_8_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app" id="aboutme_1_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app tall" id="notes_1_opener" src="Notes.png" alt="Notes">
+
+				<img class="app tall wide" id="time_1_opener" src="Time.png" alt="Time">
+
+				<img class="app" id="aboutme_2_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app tall wide" id="time_1_opener" src="Time.png" alt="Time">
+
 
 			</div>
 
@@ -114,7 +133,7 @@
 
 		</div>
 
-		<div id="group4" data-apps="3">
+		<div id="group4" data-apps="12">
 
 			<div id="name">Group 4 Apps</div>
 
@@ -123,114 +142,30 @@
 				<img class="app tall" id="notes_3_opener" src="Notes.png" alt="Notes">
 
 				<img class="app" id="aboutme_8_opener" src="AboutMe.png" alt="About Me">
+				
+				<img class="app" id="aboutme_4_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app" id="aboutme_5_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app wide" id="calendar_2_opener" src="Calendar.png" alt="Calendar">
+
+				<img class="app tall" id="notes_2_opener" src="Notes.png" alt="Notes">
+
+				<img class="app" id="aboutme_6_opener" src="AboutMe.png" alt="About Me">
+
+				<img class="app" id="aboutme_7_opener" src="AboutMe.png" alt="About Me">
 
 			</div>
+
+		</div>
+	
+		
 
 		</div>
 
 	</div>
 
-	<div id="aboutme_1" title="About Me App#1">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_2" title="About Me App#2">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_3" title="About Me App#3">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_4" title="About Me App#4">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_5" title="About Me App#5">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_6" title="About Me App#6">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_7" title="About Me App#7">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="aboutme_8" title="About Me App#8">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis sem eget vehicula rutrum. Vestibulum ante ipsum primis in faucibus.</p>
-
-	</div>
-
-	<div id="calendar_1" title="Calendar App#1">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id semper velit. Duis lacinia interdum enim, id sollicitudin massa accumsan.</p>
-
-	</div>
-
-	<div id="calendar_2" title="Calendar App#2">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id semper velit. Duis lacinia interdum enim, id sollicitudin massa accumsan.</p>
-
-	</div>
-
-	<div id="calendar_3" title="Calendar App#3">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id semper velit. Duis lacinia interdum enim, id sollicitudin massa accumsan.</p>
-
-	</div>
-
-	<div id="notes_1" title="Notes App#1">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi quam, fermentum eu consectetur sed, convallis quis magna. In hac.</p>
-
-	</div>
-
-	<div id="notes_2" title="Notes App#2">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi quam, fermentum eu consectetur sed, convallis quis magna. In hac.</p>
-
-	</div>
-
-	<div id="notes_3" title="Notes App#3">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi quam, fermentum eu consectetur sed, convallis quis magna. In hac.</p>
-
-	</div>
-
-	<div id="time_1" title="Time App#1">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut tincidunt lorem. Sed odio odio, convallis eu bibendum at, viverra.</p>
-
-	</div>
-
-	<div id="time_2" title="Time App#2">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut tincidunt lorem. Sed odio odio, convallis eu bibendum at, viverra.</p>
-
-	</div>
-
-	<div id="time_3" title="Time App#3">
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut tincidunt lorem. Sed odio odio, convallis eu bibendum at, viverra.</p>
-
-	</div>
+	
 
 </body>
 
