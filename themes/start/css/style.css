@@ -14,8 +14,8 @@ body {
 	position: fixed;
 	top: 40px;
 	left: 120px;
-     color:#f2f2f2;
-     background-color:rgb(181, 14, 231);
+     color:aqua; 
+    
 }
 #footer {
 	position: fixed;
@@ -47,13 +47,13 @@ body {
 	display: block;
 	clear: both;
 }
-#applist2{
+#contant{
 
      position:absolute;
      top: 850px;
      margin: 10px 0px 0px 0px;
      font-size: 18px;
-     background-color: aqua;
+     background-color:darkcyan;
 
       width: 1875px;
       height: 360px;
