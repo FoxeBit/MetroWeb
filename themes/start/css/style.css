@@ -46,6 +46,12 @@ body {
 	display: block;
 	clear: both;
 }
+#applist2{
+     position: absolute;
+     bottom: 100px;
+     left: 0px;
+     font-size: 18px;
+}
 .app {
   float: left;
   width: 120px;
