@@ -26,9 +26,10 @@ body {
 }
 
 #apps {
-     
+     position: absolute;
 	font-family: 'open_sans-light';
 	margin: 130px 0px 0px 0px;
+     
 }
 
 #title {
@@ -47,9 +48,10 @@ body {
 	clear: both;
 }
 #applist2{
+
      position: absolute;
-     bottom: 100px;
-     left: 0px;
+     top: 900px;
+     margin: 10px 0px 0px 0px;
      font-size: 18px;
 }
 .app {
