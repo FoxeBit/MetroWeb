@@ -57,7 +57,37 @@ body {
 
       width: 1875px;
       height: 360px;
+
+      padding: 30px;
+      line-height: 20px;
 }
+#content_1{
+
+     position: absolute;
+     top: 850px;
+     left: 2050px;
+     width: 370px;
+     height: 360px;
+     margin: 10px 0px 0px 0px;
+     float:left;
+     font-size: 18px;
+     background-color:rgb(139, 0, 0);
+      
+}
+#foot{
+
+     position: absolute;
+     top:1250px;
+     width: 2260px;
+     height: 2px;
+     left: 1880px;
+     font-size: 40px;
+     color:turquoise;
+
+
+}
+
+
 .app {
   float: left;
   width: 120px;
