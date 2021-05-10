@@ -49,10 +49,14 @@ body {
 }
 #applist2{
 
-     position: absolute;
-     top: 900px;
+     position:absolute;
+     top: 850px;
      margin: 10px 0px 0px 0px;
      font-size: 18px;
+     background-color: aqua;
+
+      width: 1875px;
+      height: 360px;
 }
 .app {
   float: left;
