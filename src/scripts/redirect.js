@@ -2,7 +2,7 @@
 
 function imageClick(url) {
 	if(url == 'Java')
-    window.location = 'https://google.com/'+ url;
+    window.location = 'file:///D:/System/DotNETFrameworkNotesForProfessionals-converted.html';
     else
-	window.location = 'https://google.com/';
+	window.location = 'file:///D:/System/DotNETFrameworkNotesForProfessionals-converted.html';
 }
